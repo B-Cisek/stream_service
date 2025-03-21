@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Streaming Service</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Video Streaming Service</h1>
+    </header>
+    
+    <main>
+      <div class="video-container">
+        <video id="videoPlayer" controls>
+          <source src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div id="videoInfo">
+          <h2 id="videoTitle">Select a video to play</h2>
+        </div>
+      </div>
+      
+      <div class="video-list-container">
+        <h2>Available Videos</h2>
+        <div id="videoList" class="video-list">
+          <p class="loading">Loading videos...</p>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <p>&copy; 2025 Video Streaming Service</p>
+    </footer>
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
